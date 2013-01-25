@@ -1,0 +1,132 @@
+@font-face
+{
+	font-family: 'Oswald';
+	font-style:normal;
+	font-weight: 400;
+	src: url(http://themes.googleusercontent.com/static/fonts/oswald/v7/-g5pDUSRgvxvOl5u-a_WHw.woff)
+}
+
+body{
+	padding: 0;
+	margin: 0;
+	background: #f0f0f0
+	url(images/noise-f1.gif) repeat -70% 0;
+}
+
+a{
+	color: inherit;
+	cursor: pointer;
+	clear: both;
+}
+
+li a{
+	text-decoration: none;
+}
+
+li a:hover{
+	color: #777777;
+}
+
+#header{
+	background: #333;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.5em;
+}
+
+#headerInner{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px 0 10px 0;
+}
+
+#content{
+	padding-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	overflow:auto;
+}
+
+#more{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#more a{
+	float:right;
+	color: #777777;
+	text-decoration: none;
+	padding-bottom: 20px;
+}
+
+#more a:hover{
+	color:black;
+}
+
+
+.active{
+	color: black;
+}
+
+.active a:hover{
+	color: black;
+}
+
+.lc{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #999999;
+	font-size:12px;
+	float:left;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+
+.lc:hover{
+	color:black;
+}
+
+.shot{
+	padding: 10px;
+	border: 0.75px solid;
+	border-color:#777777;
+	background: white;
+	border-radius: 5px;
+	overflow:auto;
+	
+}
+
+.shot:hover{
+	-webkit-box-shadow: 0 5px 15px 0px #888;                                
+    -moz-box-shadow: 0 5px 15px 0px #888;                                   
+    box-shadow: 0 5px 15px 0px #888;
+}
+
+.tabs {
+	font-size: 1.25em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	height: 30px;
+	color: #999999;
+	border-bottom: 2px solid black;
+}
+
+.tabs li{
+	float: left;
+	margin: 0 0.5em 0 0;
+	padding-right: 18px;
+}
+
+.gallery {
+	overflow:auto;
+	clear: both;	
+	list-style:none;
+}
+
+.gallery li{
+	padding: 0;
+	float: left;
+	margin: 0 2em 2em 2em;
+}
